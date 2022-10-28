@@ -1,6 +1,6 @@
 const Web3 = require('web3');
 var addy = '0x01672528275cB5dD5ab94AB4Ad663eBbBDdB54D9';
-const rpcURL = 'https://mainnet.infura.io/v3/183e2faa9f0448dda81629460b3d40e8';
+const rpcURL = 'https://mainnet.infura.io/v3/';
 const web3 = new Web3(rpcURL)
 web3.eth.getBalance(addy, async (err,bal) => {
     balance =  await web3.utils.fromWei(bal, 'ether')
