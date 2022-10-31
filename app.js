@@ -1,5 +1,5 @@
 
-
+// send eth from one account to another
 var Tx = require('ethereumjs-tx').Transaction
 var Web3 = require('web3')
 const env = require('dotenv').config()
