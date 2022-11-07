@@ -1,5 +1,5 @@
 const Web3 = require('web3')
-const web3 = new Web3('https://mainnet.infura.io/v3/183e2faa9f0448dda81629460b3d40e8')
+const web3 = new Web3('https://mainnet.infura.io/v3/')
 
 // Get average gas price in wei from last few blocks median gas price
 web3.eth.getGasPrice().then((result) => {
